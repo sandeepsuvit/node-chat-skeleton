@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+        </title>
+        <link href="css/layout.css" rel="stylesheet" type="text/css">
+        </link>
+    </head>
+    <body>
+        <div class="chat">
+            <input class="chat-name" placeholder="Enter your name" type="text"/>
+            <div class="chat-messages">
+                <!--Message will be outputted here -->
+            </div>
+            <textarea class="chat-textarea" placeholder="Type your message"></textarea>
+            <div class="chat-status">
+                Status: <span>Idle</span>
+            </div>
+        </div>
+        <script src="http://localhost:8092/socket.io/socket.io.js" type="text/javascript">
+        </script>
+        <script src="app.js" type="text/javascript">
+        </script>
+    </body>
+</html>
